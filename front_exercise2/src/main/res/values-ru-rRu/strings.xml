@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Птички</string>
+    <string name="app_exit">Выход</string>
+    <string name="btn_back">Назад</string>
+</resources>

@@ -24,3 +24,7 @@ dependencyResolutionManagement {
 
 rootProject.name = "mobile_development_2026"
 include ':protocols_exercise1'
+include ':front_exercise1'
+include ':front_exercise2'
+
+include ':front_exercise4'
