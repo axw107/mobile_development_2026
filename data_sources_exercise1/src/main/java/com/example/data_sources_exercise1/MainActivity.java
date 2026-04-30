@@ -21,8 +21,8 @@ import okhttp3.Response;
 public class MainActivity extends AppCompatActivity {
 
     OkHttpClient client;
-    String getURL = "http://192.168.0.8:5000/get.php?key_name=value";
-    String postURL = "http://192.168.0.8:5000/post.php";
+    String getURL = "http://172.18.0.1:5000/get.php?key_name=value";
+    String postURL = "http://172.18.0.1:5000/post.php";
     TextView textView;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
