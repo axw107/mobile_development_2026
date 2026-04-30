@@ -28,4 +28,4 @@ ___
 ___
 **Источники данных, задание 3**
 
-Задание распологается в отдельном репозитории https://github.com/anyatambovtseva/mobile_development_2026
+Задание располагается в отдельном репозитории https://github.com/anyatambovtseva/mobile_development_2026
