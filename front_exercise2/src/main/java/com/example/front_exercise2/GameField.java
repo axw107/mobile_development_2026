@@ -31,13 +31,13 @@ public class GameField extends View {
         @Override
         public void onTick(long millisUntilFinished) {
             if (enemy == null) {
-                enemy = new Enemy(2400, random.nextInt(800), getResources());
+                enemy = new Enemy(3000, random.nextInt(800), getResources());
             }
             if (enemy.getCenterX() < -200){
-                enemy = new Enemy(2400, random.nextInt(800), getResources());
+                enemy = new Enemy(3000, random.nextInt(800), getResources());
             }
             if (bird.intersect(enemy)){
-                enemy = new Enemy(2400, random.nextInt(800), getResources());
+                enemy = new Enemy(3000, random.nextInt(800), getResources());
                 ++score;
             }
             bird.move();
